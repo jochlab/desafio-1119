@@ -1,0 +1,14 @@
+Anexo: Desafío Nro. 1119 - Modelos Entidad-Relación y Relacional
+
+Table medicos:
+
+licencia BIT NOT NULL: corresponde al requerimiento donde el Médico puede otorgar ó no una licencia médica, donde para cada registro se deberá seleccionar la opción que corresponda.
+
+0: No otorga licencia.
+1: sí otorga la licencia.
+
+-----------------------------------
+
+table ingreso: tabla que se conecta con diferente entidades, siendo la entidad que almacena (y de consulta) los datos de Pacientes una vez que ya comienzan un tratamiento.
+
+
